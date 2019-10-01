@@ -400,17 +400,16 @@ button {
 		padding: 15px 10px !important;
 	}
 }
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 990px) {
 	.ui.grid>[class*="two wide"].column {
-		width: 100% !important;
+		width: 7.5% !important;
 		text-align: left!important;
 	}
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 500px) {
 	.ui.grid>[class*="two wide"].column {
-		width: 7.5% !important;
+		width: 100% !important;
 		text-align: left!important;
 	}
 }
